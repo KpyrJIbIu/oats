@@ -13,6 +13,11 @@
           "min": 0,
           "max": 5
         },
+        "mentalLimit": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }
         "biography": ""
       }
     },
@@ -28,25 +33,27 @@
           "label": "Strength",
           "value": 10
         },
-        "focus": {
+           "focus": {
           "label": "Focus",
-          "value": 0
-        },
-        "power": {
+             "value": 0
+          },
+           "power": {
           "label": "Power",
-          "value": 0
+             "value": 0
+          }
         },
         "dex": {
           "label": "Dexterity",
           "value": 10
         },
-        "marksmanship": {
+          "marksmanship": {
           "label": "Marksmanship",
           "value": 0
-        },
-        "agility": {
+          },
+          "agility": {
           "label": "Agility",
-          "value": 0
+            "value": 0
+          }
         },
         "con": {
           "label": "Constitution",
