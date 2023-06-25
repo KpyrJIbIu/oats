@@ -17,7 +17,7 @@
           "value": 5,
           "min": 0,
           "max": 5
-        }
+        },
         "biography": ""
       }
     },
@@ -40,8 +40,7 @@
            "power": {
           "label": "Power",
              "value": 0
-          }
-        },
+          },
         "dex": {
           "label": "Dexterity",
           "value": 10
@@ -53,8 +52,7 @@
           "agility": {
           "label": "Agility",
             "value": 0
-          }
-        },
+          },
         "con": {
           "label": "Constitution",
           "value": 10
@@ -72,7 +70,7 @@
           "value": 10
         }
       }
-    },
+    }
     "npc": {
       "templates": ["base"],
       "cr": 0
