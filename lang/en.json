@@ -1,0 +1,30 @@
+{
+  "oats.AbilityStr": "Strength",
+  "oats.AbilityCon": "Constitution",
+  "oats.AbilityDex": "Dexterity",
+  "oats.AbilityInt": "Intelligence",
+  "oats.AbilityWis": "Wisdom",
+  "oats.AbilityCha": "Charisma",
+  "oats.AbilityPow": "Power",
+  "oats.AbilityFoc": "Focus",
+  "oats.AbilityMark": "Marksmanship",
+  "oats.AbilityAgi":  "Agility",
+
+  "oats.AbilityStrAbbr": "str",
+  "oats.AbilityConAbbr": "con",
+  "oats.AbilityDexAbbr": "dex",
+  "oats.AbilityIntAbbr": "int",
+  "oats.AbilityWisAbbr": "wis",
+  "oats.AbilityChaAbbr": "cha",
+  "oats.AbilityPowAbbr": "pow",
+  "oats.AbilityFocAbbr": "foc",
+  "oats.AbilityMarkAbbr": "mark",
+  "oats.AbilityAgiAbbr": "agi",
+
+  "oats.EffectCreate": "Create Effect",
+  "oats.EffectToggle": "Toggle Effect",
+  "oats.EffectEdit": "Edit Effect",
+  "oats.EffectDelete": "Delete Effect",
+
+  "oats.Add": "Add"
+}

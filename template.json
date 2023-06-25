@@ -1,0 +1,95 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "base": {
+        "xHealth": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "cHealth": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        },
+        "biography": ""
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "str": {
+          "label": "Strength",
+          "value": 10
+        },
+        "focus": {
+          "label": "Focus",
+          "value": 0
+        },
+        "power": {
+          "label": "Power",
+          "value": 0
+        },
+        "dex": {
+          "label": "Dexterity",
+          "value": 10
+        },
+        "marksmanship": {
+          "label": "Marksmanship",
+          "value": 0
+        },
+        "agility": {
+          "label": "Agility",
+          "value": 0
+        },
+        "con": {
+          "label": "Constitution",
+          "value": 10
+        },
+        "int": {
+          "label": "Intelligence",
+          "value": 10
+        },
+        "wis": {
+          "label": "Wisdom",
+          "value": 10
+        },
+        "cha": {
+          "label": "Charisma",
+          "value": 10
+        }
+      }
+    },
+    "npc": {
+      "templates": ["base"],
+      "cr": 0
+    }
+  },
+  "Item": {
+    "types": ["item", "feature", "spell"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "feature": {
+      "templates": ["base"]
+    },
+    "spell": {
+      "templates": ["base"],
+      "spellLevel": 1
+    }
+  }
+}

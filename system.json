@@ -1,0 +1,34 @@
+{
+  "id": "oats",
+  "title": "OaTS",
+  "description": "Ops and Tactics System for FoundryVTT",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.287",
+    "maximum": 10
+  },
+  "authors": [{
+    "name": "MactepKpyr"
+  }],
+  "esmodules": ["module/oats.mjs"],
+  "styles": ["css/oats.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "xHealth",
+  "secondaryTokenAttribute": "cHealth",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt",
+  "changelog": "CHANGELOG.md"
+}
