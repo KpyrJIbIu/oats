@@ -18,6 +18,11 @@
           "min": 0,
           "max": 5
         },
+        "combatPoints": {
+          "value": 15,
+          "max": 15,
+          "min": 0
+        }
         "biography": ""
       }
     }
@@ -34,26 +39,26 @@
           "label": "Strength",
           "value": 10
         },
-           "focus": {
+        "focus": {
           "label": "Focus",
-             "value": 0
-          },
-           "power": {
+          "value": 0
+        },
+        "power": {
           "label": "Power",
-             "value": 0
-          },
+          "value": 0
+        },
         "dex": {
           "label": "Dexterity",
           "value": 10
         },
-          "marksmanship": {
+        "marksmanship": {
           "label": "Marksmanship",
           "value": 0
-          },
-          "agility": {
+        },
+        "agility": {
           "label": "Agility",
-            "value": 0
-          },
+          "value": 0
+        },
         "con": {
           "label": "Constitution",
           "value": 10
@@ -69,6 +74,88 @@
         "cha": {
           "label": "Charisma",
           "value": 10
+        }
+      },
+      "skills": {
+        "acrobatics": {
+          "label": "",
+          "ranks": 0
+        },
+        "animalHandling": {
+          "label": "",
+          "ranks": 0
+        },
+        "athletics": {
+          "label": "",
+          "ranks": 0
+        },
+        "craft": {
+          "label": "",
+          "ranks": 0
+        },
+        "demolitions": {
+          "label": "",
+          "ranks": 0
+        },
+        "disableDevice": {
+          "label": "",
+          "ranks": 0
+        },
+        "drive": {
+          "label": "",
+          "ranks": 0
+        },
+        "knowlegeCategory": {
+          "label": "",
+          "ranks": 0
+        },
+        "knowlegeStreetwise": {
+          "label": "",
+          "ranks": 0
+        },
+        "knowlegePopCulture": {
+          "label": "",
+          "ranks": 0
+        },
+        "Linguistics": {
+          "label": "",
+          "ranks": 0
+        },
+        "perception": {
+          "label": "",
+          "ranks": 0
+        },
+        "perform": {
+          "label": "",
+          "ranks": 0
+        },
+        "pilot": {
+          "label": "",
+          "ranks": 0
+        },
+        "presence": {
+          "label": "",
+          "ranks": 0
+        },
+        "ride": {
+          "label": "",
+          "ranks": 0
+        },
+        "stealth": {
+          "label": "",
+          "ranks": 0
+        },
+        "speechcraft": {
+          "label": "",
+          "ranks": 0
+        },
+        "technologyUse": {
+          "label": "",
+          "ranks": 0
+        },
+        "treatInjury": {
+          "label": "",
+          "ranks": 0
         }
       }
     },
